@@ -24,8 +24,18 @@ SECRET_KEY = '*52hb%=273xu==&hpf8+_-%6xct-qc32-$o(uraa%@5@!8n3hp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = []
 
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'javorekjustin@gmail.com' #my gmail username
+EMAIL_HOST_PASSWORD = 'Lindros88' #my gmail password
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = "Justin <javorekjustin@gmail.com>"
+
+
+ADMINS = [('Justin', EMAIL_HOST_USER)]
+MANAGERS = ADMINS
 
 # Application definition
 
