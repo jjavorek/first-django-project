@@ -3,7 +3,7 @@
     "model": "pages.page",
     "pk": 1,
     "fields": {
-        "title": "Code with ease!",
+        "title": "Code with ease!!!",
         "title_description": "Welcome and join us!",
         "title_btn": "Join",
         "title_btn_ulr": "",
